@@ -1,7 +1,26 @@
 # PT_RXJS - Calling an API & Manipulating Its Data using RxJS Operators
+
+## What is RxJS
 > [RxJS](https://rxjs.dev/guide/overview) is a javascript library that brings the concept of "reactive programming" to the web.
 
 Reactive programming is just a different way of building software applications. Essentially, your software is built to "react" to changes that happen (like click events, data being fetched, etc.)
+
+## About this exercise
+
+Previously we scafolded a new Angular application  
+
+* Using angular CLI
+* Got the understanding of the project structure (Module, Component, and boostrapping the application) 
+
+In this exercise we will
+
+* Create a custom service 
+* Cosume an API [JSON placehoder](https://jsonplaceholder.typicode.com/) using HttpClient
+* Return the Observable from the service
+* Inject the service into our angular component
+* Filter the response from the service using RxJS operators (pipe, map, and filter)
+
+we are going to setup routes for a fictitious bank application called BBBank.
 
 ## Basic Concepts of RxJS
 > An [Observable](https://rxjs.dev/guide/observable) is basically a function that can return a stream of data to an observer over time.
