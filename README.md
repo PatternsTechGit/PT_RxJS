@@ -1,4 +1,4 @@
-# PT_RXJS - Calling an API & Manipulating Its Data using RxJS Operators
+# Calling an API & Manipulating Its Data using RxJS Operators
 
 ## What is RxJS
 > [RxJS](https://rxjs.dev/guide/overview) is a javascript library that brings the concept of "reactive programming" to the web.
