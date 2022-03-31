@@ -20,8 +20,6 @@ In this exercise we will
 * Inject the service into our angular component
 * Filter the response from the service using RxJS operators (pipe, map, and filter)
 
-we are going to setup routes for a fictitious bank application called BBBank.
-
 ## Basic Concepts of RxJS
 > An [Observable](https://rxjs.dev/guide/observable) is basically a function that can return a stream of data to an observer over time.
 
