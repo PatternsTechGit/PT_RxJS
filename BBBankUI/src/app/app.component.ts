@@ -25,6 +25,7 @@ export class AppComponent implements OnInit {
       .pipe(map(p => p.filter(x => x.id < 10)))
       .subscribe(response => {
         this.blogs = response;
+        console.log(this.blogs);
       });
   }
 
